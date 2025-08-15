@@ -1,6 +1,6 @@
 # Persona AI Chat App
 
-[![Persona AI Demo Video](https://res.cloudinary.com/dnimidvwh/image/upload/v1755242165/screenshot_with_play_icon.png)](https://res.cloudinary.com/dnimidvwh/video/upload/v1755243741/persona_ai_mjud0b.mp4)
+[![Persona AI Demo Video](https://res.cloudinary.com/dnimidvwh/image/upload/v1755242165/Screenshot_2025-08-15_124351_f3s9tk.png)](https://res.cloudinary.com/dnimidvwh/video/upload/v1755243741/persona_ai_mjud0b.mp4)
 
 ## 📌 Overview
 
