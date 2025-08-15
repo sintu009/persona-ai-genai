@@ -92,9 +92,15 @@ const HiteshSirPage = () => {
 
               <Button
                 variant="outline"
-                className="border-indigo-500 text-indigo-500 hover:bg-indigo-50"
+                className="border-indigo-500 text-indigo-500 hover:bg-indigo-50 flex items-center gap-2"
               >
-                AI Assistant
+                <span className="bg-indigo-500 text-white px-1 py-0.5 rounded text-xs font-semibold">
+                  HI
+                </span>
+                <span className="bg-indigo-500 text-white px-1 py-0.5 rounded text-xs font-semibold">
+                  EN
+                </span>
+                <span>AI Assistant</span>
               </Button>
             </div>
 
