@@ -40,11 +40,16 @@ const HiteshSirPage = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post(`http://localhost:3000/api/gemini`, {
-        historyChat: allChats,
-        recentMessage: text,
-        teacherDetails: selectedPersona,
-      });
+      const res = await axios.post(
+        `https://persona-ai-genai.vercel.app/api/gemini`,
+
+        //  const res = await axios.post(`http://localhost:3000/api/gemini`,
+        {
+          historyChat: allChats,
+          recentMessage: text,
+          teacherDetails: selectedPersona,
+        }
+      );
 
       setAllChats((prev) =>
         prev.map((msg, idx) =>
