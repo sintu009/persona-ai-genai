@@ -4,23 +4,37 @@
 
 ## 📌 Overview
 
-The **Persona AI Chat App** is a Next.js-based application that allows users to interact with an AI that takes on the personality, speaking style, and knowledge of a given persona.
+The Persona AI Chat App is a modern, Next.js-based application that enables users to engage in conversations with an AI embodying the personality, speaking style, and knowledge of a customizable persona. Whether it's a teacher, celebrity, or fictional character, you can define the persona's traits, background, and communication style to create an immersive and tailored chat experience.
 
-You can define any persona (e.g., a teacher, celebrity, fictional character) by providing detailed background information, personality traits, and communication style. The app then uses this persona data to guide AI responses, ensuring the chatbot stays in character throughout the conversation.
+The app leverages the power of Google's gemini-2.5-flash model via the Gemini API, combined with a sleek, responsive UI built with Next.js 14, React, and Tailwind CSS.
 
 ---
 
 ## 🚀 Features
 
-- **Custom Persona Support** – Define traits, background, and speaking style for any AI character.
-- **Conversation Memory** – Keeps track of previous messages for more natural responses.
-- **Powered by Gemini API** – Utilizes Google's `gemini-2.5-flash` model for fast, intelligent responses.
-- **Next.js 14 + React** – Modern frontend framework for fast rendering and easy deployment.
-- **Tailwind CSS** – Clean, responsive, and customizable UI.
-- **Persistent History Format** – Chat history is stored in Gemini-compatible structure:
+- **Custom Persona Support** – Craft unique AI characters by defining their personality traits, background, and communication style.
+- **Conversation Memory** – Maintains context by storing chat history for coherent and natural interactions.
+- **Powered by Gemini API** – Utilizes Google's gemini-2.5-flash model for fast, high-quality AI responses.
+- **Next.js 14 + React** – Built with a modern frontend framework for optimal performance and easy deployment.
+- **Tailwind CSS** – Offers a clean, responsive, and customizable user interface.
+- **Persistent History Format** – Stores chat history in a Gemini-compatible JSON structure:
   ```json
   [
     { "role": "user", "parts": [{ "text": "Hello" }] },
     { "role": "model", "parts": [{ "text": "Hi there!" }] }
   ]
   ```
+
+## Prerequisites
+
+Node.js (v18 or higher)
+npm or Yarn
+Gemini API key (obtain from Google Cloud Console)
+
+## Tech Stack
+
+**Framework:** Next.js 14, React
+**Styling:** Tailwind CSS
+**AI Model:** Google Gemini API (gemini-2.5-flash)
+**Language:** TypeScript/JavaScript
+**Deployment:** Vercel (recommended) or any Node.js-compatible hosting service
